@@ -5,8 +5,10 @@
 <p align="center"><em>Agentic engineering</em></p>
 
 <p align="center">
-  <a href="https://hec-ovi.dev"><img src="https://img.shields.io/badge/Website-hec--ovi.dev-0969da?style=flat-square" alt="Website"></a>
-  <a href="https://linkedin.com/in/hec-ovi"><img src="https://img.shields.io/badge/LinkedIn-hec--ovi-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://hec-ovi.dev"><img src="https://img.shields.io/badge/Website-hec--ovi.dev-0969da?style=flat-square" alt="Website"></a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/hec-ovi"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="21" alt="LinkedIn"></a>&nbsp;
+  <a href="https://x.com/hec_ovi"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/white"><img src="https://cdn.simpleicons.org/x/black" height="21" alt="X"></picture></a>&nbsp;
+  <a href="https://reddit.com/user/hec-ovi"><img src="https://cdn.simpleicons.org/reddit/FF4500" height="21" alt="Reddit"></a>
 </p>
 
 AI engineer focused on innovation, and a generalist on purpose: I can put AI to work wherever it fits. Multi-agent engines, MCP servers and clients, skills and tooling for coding agents, and local agents optimized for whatever hardware the project actually runs on. Everything ships production-ready: Docker, compose, DevOps included. Last role: Senior AI Solutions Architect at Ohara, building the tool and MCP integration layer of Modu, an agent that generated full apps. Remote, from Rosario, Argentina.
@@ -56,13 +58,14 @@ Hallucination is an engineering problem before it is a model problem. At Ohara I
 
 <h2 align="center">Generative AI</h2>
 
-At Ohara I wired Modu's generation layer to the vendor field, in production: video with Hedra, HeyGen, Luma, Veo 3, and Runway; image with GPT-Image and Flux; voice and audio with ElevenLabs, PlayHT, and Lyria 2. One middleware, one contract, swappable vendors. I also built the internal R&D pipelines behind it: sprite-sheet generation (one run to 16 game-ready assets) and a text-to-image-to-3D workflow that ends in a GLB model dropped straight into the user's build.
-
 | Repo | What it is |
 |---|---|
 | [ai-music-studio](https://github.com/hec-ovi/ai-music-studio) | Local AI album generation: an LLM plans the album, ACE-Step 1.5 generates the tracks, FLUX renders the cover art. SSE-streamed FastAPI backend, React frontend, MP3/MP4 and YouTube-ready exports. |
 | [gamentic](https://github.com/hec-ovi/gamentic) | Three swappable generative layers behind one game engine: text (Gemma 4 26B MoE on llama.cpp + Vulkan), images (FLUX.2 klein via ComfyUI, rendered in the background off the request path), and voice (Maya1 TTS + SNAC codec, every character with its own voice). Each layer swaps for any OpenAI-compatible API, ComfyUI endpoint, or hosted vendor without touching the game. |
 | [comfyui-strix-docker](https://github.com/hec-ovi/comfyui-strix-docker) | ComfyUI image generation packaged for AMD gfx1151, fixing the silent CPU fallback stock images hit. |
+
+<sub><strong>Shipped in production at Ohara</strong> (Modu's generation layer, one middleware, swappable vendors):</sub><br>
+<sub><strong>Video:</strong> Hedra, HeyGen, Luma, Veo 3, Runway &nbsp;·&nbsp; <strong>Image:</strong> GPT-Image, Flux &nbsp;·&nbsp; <strong>Voice and audio:</strong> ElevenLabs, PlayHT, Lyria 2 &nbsp;·&nbsp; <strong>Internal pipelines:</strong> sprite-sheet generation (one run to 16 game-ready assets), text-to-image-to-3D ending in a GLB model</sub>
 
 <h2 align="center">Local inference, on the hardware you have</h2>
 
