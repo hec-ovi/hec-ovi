@@ -83,8 +83,6 @@ Off the agent path: [xubamp](https://github.com/hec-ovi/xubamp), a from-scratch 
 
 Where the AI arc started. [computer-vision](https://github.com/hec-ovi/computer-vision) (2024) benchmarks YOLOv8, EfficientDet, Detectron2, and SAM2 head to head for object detection and segmentation in video, PyTorch on CUDA, with a React viewer for the results ([computer-vision-frontend](https://github.com/hec-ovi/computer-vision-frontend)). Same era: [nerex](https://github.com/hec-ovi/nerex) extracts financial entities and numbers over four engines (regex, spaCy, word2number, BERT).
 
-<h2 align="center">How I work</h2>
+<h2 align="center">Experience</h2>
 
-Agentic engineering: coding agents (Claude Code, my own noob-cli) write most first drafts; architecture, integration tests, and security review stay with me. Happy to walk through any commit on a call.
-
-Open to remote senior Applied AI roles and specialist contracts: agent systems, MCP integrations, RAG, generative AI, local inference. Reach me through [hec-ovi.dev](https://hec-ovi.dev) or [LinkedIn](https://linkedin.com/in/hec-ovi).
+More than 3 years deploying and shipping AI solutions, on top of 23+ years of production software: games, real-time apps, and frontend platforms before the AI arc. Open to remote senior Applied AI roles and specialist contracts: agent systems, MCP integrations, RAG, generative AI, local inference. Reach me through [hec-ovi.dev](https://hec-ovi.dev) or [LinkedIn](https://linkedin.com/in/hec-ovi).
