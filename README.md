@@ -14,7 +14,7 @@
   <a href="https://hec-ovi.dev"><img src="https://img.shields.io/badge/Website-hec--ovi.dev-0969da?style=flat-square" alt="Website"></a>
 </p>
 
-AI engineer focused on innovation, and a generalist on purpose: I can put AI to work wherever it fits. Multi-agent engines, MCP servers and clients, skills and tooling for coding agents, and local agents optimized for whatever hardware the project actually runs on. Everything ships production-ready: Docker, compose, DevOps included. Last role: Senior AI Solutions Architect at Ohara, building the tool and MCP integration layer of Modu, an agent that generated full apps. Remote, from Rosario, Argentina.
+AI engineer focused on innovation, and a generalist on purpose: I can implement AI anywhere. Multi-agent engines, MCP servers and clients, skills and tooling for agents, and local agents optimized for whatever hardware the project actually runs on. Everything ships production-ready, as my deployed products show. Proven experience: the repos on this page, verified through endorsements and recommendations on [LinkedIn](https://linkedin.com/in/hec-ovi). Fully remote.
 
 <p align="center">🏆 <strong>1st place, Anna AI-Native App Hackathon 2026</strong>, with <a href="https://github.com/hec-ovi/gamentic">gamentic</a>: my multi-agent dungeon RPG, ported to run natively on the Anna platform in one week (<a href="https://github.com/hec-ovi/gamentic-anna">port repo</a>).</p>
 
