@@ -5,10 +5,13 @@
 <p align="center"><em>Agentic engineering</em></p>
 
 <p align="center">
-  <a href="https://hec-ovi.dev"><img src="https://img.shields.io/badge/Website-hec--ovi.dev-0969da?style=flat-square" alt="Website"></a>&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/hec-ovi"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="21" alt="LinkedIn"></a>&nbsp;
-  <a href="https://x.com/hec_ovi"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/white"><img src="https://cdn.simpleicons.org/x/black" height="21" alt="X"></picture></a>&nbsp;
-  <a href="https://reddit.com/user/hec-ovi"><img src="https://cdn.simpleicons.org/reddit/FF4500" height="21" alt="Reddit"></a>
+  <a href="https://linkedin.com/in/hec-ovi"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="24" alt="LinkedIn"></a>&nbsp;&nbsp;
+  <a href="https://x.com/hec_ovi"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/white"><img src="https://cdn.simpleicons.org/x/black" height="24" alt="X"></picture></a>&nbsp;&nbsp;
+  <a href="https://reddit.com/user/hec-ovi"><img src="https://cdn.simpleicons.org/reddit/FF4500" height="24" alt="Reddit"></a>
+</p>
+
+<p align="center">
+  <a href="https://hec-ovi.dev"><img src="https://img.shields.io/badge/Website-hec--ovi.dev-0969da?style=flat-square" alt="Website"></a>
 </p>
 
 AI engineer focused on innovation, and a generalist on purpose: I can put AI to work wherever it fits. Multi-agent engines, MCP servers and clients, skills and tooling for coding agents, and local agents optimized for whatever hardware the project actually runs on. Everything ships production-ready: Docker, compose, DevOps included. Last role: Senior AI Solutions Architect at Ohara, building the tool and MCP integration layer of Modu, an agent that generated full apps. Remote, from Rosario, Argentina.
