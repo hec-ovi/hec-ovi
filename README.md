@@ -16,7 +16,7 @@
 
 AI engineer focused on innovation, and a generalist on purpose: I can implement AI anywhere. Multi-agent engines, MCP servers and clients, skills and tooling for agents, and local agents optimized for whatever hardware the project actually runs on. Everything ships production-ready, as my deployed products show. Proven experience: the repos on this page, verified through endorsements and recommendations on [LinkedIn](https://linkedin.com/in/hec-ovi). Fully remote.
 
-<p align="center">🏆 <strong>1st place, Anna AI-Native App Hackathon 2026</strong>, with <a href="https://github.com/hec-ovi/gamentic">gamentic</a>: my multi-agent dungeon RPG, ported to run natively on the Anna platform in one week (<a href="https://github.com/hec-ovi/gamentic-anna">port repo</a>).</p>
+<p align="center">🏆 <strong>1st place, Anna AI-Native App Hackathon 2026</strong>, with <a href="https://github.com/hec-ovi/gamentic">gamentic</a>: an AI dungeon RPG, ported to run natively on the Anna platform in one week (<a href="https://github.com/hec-ovi/gamentic-anna">port repo</a>).</p>
 
 <p align="center"><a href="https://github.com/hec-ovi/gamentic"><img src="assets/anna-hackathon-2026-first-place.jpeg" alt="First place certificate, Anna Hackathon 2026" width="440"></a></p>
 
@@ -24,7 +24,7 @@ AI engineer focused on innovation, and a generalist on purpose: I can implement 
 
 <h2 align="center">Agents and agentic loops</h2>
 
-Systems where an LLM runs a loop with real responsibilities: tools, state, memory, recovery.
+Systems where agents run loops with real responsibilities: tools, state, memory, recovery.
 
 | Repo | What it is |
 |---|---|
