@@ -102,4 +102,4 @@ Further back: the early AI implementations I did at ADGS (Doha, 2018-2024), NLP 
 
 <h2 align="center">Experience</h2>
 
-More than 3 years applying AI, on an AI track that started with pre-GPT NLP at ADGS, on top of 23+ years of production software: games, real-time apps, and frontend platforms. Open to remote senior Applied AI roles and specialist contracts: agent systems, MCP integrations, RAG, generative AI, local inference. Reach me through [hec-ovi.dev](https://hec-ovi.dev) or [LinkedIn](https://linkedin.com/in/hec-ovi).
+Applying AI since 2023, on an AI track that started with pre-GPT NLP at ADGS, on top of 23+ years of production software: games, real-time apps, and frontend platforms. Open to remote senior Applied AI roles and specialist contracts: agent systems, MCP integrations, RAG, generative AI, local inference. Reach me through [hec-ovi.dev](https://hec-ovi.dev) or [LinkedIn](https://linkedin.com/in/hec-ovi).
