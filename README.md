@@ -92,7 +92,7 @@ AMD Strix Halo (Ryzen AI Max+ 395, gfx1151, 128 GB unified memory) is the box on
 | [llama-vulkan-strix](https://github.com/hec-ovi/llama-vulkan-strix) | llama.cpp server on Vulkan, GGUF weights pinned to GTT, plus an opt-in ROCm FP4 + MTP stack. Real measured benchmarks. |
 | [vllm-qwen](https://github.com/hec-ovi/vllm-qwen) / [llama-qwen](https://github.com/hec-ovi/llama-qwen) | BF16 and Q8_0 OpenAI-compatible servers for the same board, 256K context, TheRock ROCm. |
 
-Off the agent path: [xubamp](https://github.com/hec-ovi/xubamp), a from-scratch Winamp-style audio player for Wayland written in Rust; [music](https://github.com/hec-ovi/music), a static no-backend YouTube playlist player with agent bulk-import; and [eva](https://github.com/hec-ovi/eva), AI-narrated Spanish micro-fables for smart TVs, read by a cloned voice.
+Off the agent path: [xubamp](https://github.com/hec-ovi/xubamp), a from-scratch Winamp-style audio player for Wayland written in Rust, and [music](https://github.com/hec-ovi/music), a static no-backend YouTube playlist player with agent bulk-import.
 
 <h2 align="center">Early AI work</h2>
 
