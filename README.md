@@ -16,7 +16,7 @@
 
 <p align="center"><strong>Shipping an average of 0.8 projects per week. Open to offers.</strong></p>
 
-Most projects on my portfolio are at 70-80% completion and open to funders. If you want to fund one, reach me through [hec-ovi.dev](https://hec-ovi.dev) or [LinkedIn](https://linkedin.com/in/hec-ovi).
+Most projects on my portfolio are at 70-80% completion and open to funders. Reach me through [LinkedIn](https://linkedin.com/in/hec-ovi).
 
 AI engineer focused on innovation, and a generalist on purpose: I can implement AI anywhere. Multi-agent engines, MCP servers and clients, skills and tooling for agents, and local agents optimized for whatever hardware the project actually runs on. Everything I deploy ships production-ready, as my live products show. Proven experience: the repos on this page, verified through endorsements and recommendations on [LinkedIn](https://linkedin.com/in/hec-ovi). Fully remote.
 
