@@ -32,7 +32,7 @@ Generalist AI engineer: I implement AI anywhere, from agentic enhancement of an 
 
 Systems where agents run loops with real responsibilities: tools, state, memory, recovery.
 
-| Repo | What it is |
+| Project Repo Link | What it is |
 |---|---|
 | [**Censurado**](https://elcensuradoweb.com) | Self-hosted AI news portal run end to end by an agentic workflow loop, live at [elcensuradoweb.com](https://elcensuradoweb.com). Synthetic authors with their own editorial bias and source lists, stories fact-checked against real sources behind a gated editorial review, an append-only publish API so nothing rewrites history, and a 24/7 serve loop that falls back across agents (Gemini, Codex, Claude, local model) when one fails. <a href="https://github.com/hec-ovi/censurado-web-brain"><img src="https://img.shields.io/badge/brain-8250df?style=flat-square" alt="brain"></a> <a href="https://github.com/hec-ovi/censurado-web-backend"><img src="https://img.shields.io/badge/backend-1a7f37?style=flat-square" alt="backend"></a> <a href="https://github.com/hec-ovi/censurado-web"><img src="https://img.shields.io/badge/frontend-0969da?style=flat-square" alt="frontend"></a> |
 | [gamentic](https://github.com/hec-ovi/gamentic) | The hackathon winner above, fully local. The world is an explicit state machine: everything the model changes goes through one of 40 validated tools writing to SQLite, so long adventures stay consistent. Every character is its own agent with bounded context and memory, and the text, image, and voice layers (llama.cpp, ComfyUI FLUX.2, Maya1) swap for any OpenAI-compatible or hosted vendor without touching the engine. 850+ tests. |
@@ -44,7 +44,7 @@ Systems where agents run loops with real responsibilities: tools, state, memory,
 
 Installable infrastructure for other agents: skills, toolkits, MCP servers and clients. Published on PyPI, npm, and the MCP Registry.
 
-| Repo | What it is |
+| Project Repo Link | What it is |
 |---|---|
 | [telegram-bot-skill](https://github.com/hec-ovi/telegram-bot-skill) | Any local CLI coding agent (Claude Code, opencode, Codex, Gemini) as a private Telegram bot. One repo, three surfaces: installable skill, npm toolkit, MCP server over stdio or Streamable HTTP. Zero-dependency Node core, deterministic access tiers so strangers wait at a gate, 87 tests. |
 | [agentickit](https://github.com/hec-ovi/agentickit) | React copilot framework on AG-UI: reads app state, fills forms, calls your tools, confirms destructive actions with the user before running them, `.pilot/` markdown skills. 579 tests, on npm. |
@@ -55,14 +55,14 @@ Installable infrastructure for other agents: skills, toolkits, MCP servers and c
 
 Two decisions carry most of an agent's accuracy: what the model is allowed to write, and what enters its context. At Ohara I removed hallucinated API code from Modu's generated apps by replacing free-written integrations with deterministic template injection: the model fills validated interfaces instead of improvising them. On the context side, when the knowledge fits the window, CAG (cache-augmented generation: preload it once into the KV cache and answer from it, no retriever in the loop) beats RAG; RAG earns its place when the corpus outgrows the context. The same constraint-first design runs through the repos above: state-machine grounding in gamentic, source-checked publishing in Censurado, context budgets in noob-cli.
 
-| Repo | What it is |
+| Project Repo Link | What it is |
 |---|---|
 | [rag-base](https://github.com/hec-ovi/rag-base) | Hybrid search backend: pgvector + ParadeDB BM25 + LightRAG graph, 4-mode rerank on CPU and GPU sidecars, GLiNER NER. 19 endpoints, 115 integration tests, and an eval harness reporting hit@1 / hit@5 / MRR, including the configurations where the reranker makes results worse. |
 | [rag-suite](https://github.com/hec-ovi/rag-suite) | RAG platform split into four isolated backends (inference, ingestion, RAG, reranker) with dense + BM25 hybrid retrieval and reranking. FastAPI + Qdrant, Docker Compose. |
 
 <h2 align="center">Generative AI</h2>
 
-| Repo | What it is |
+| Project Repo Link | What it is |
 |---|---|
 | [ai-music-studio](https://github.com/hec-ovi/ai-music-studio) | Local AI album generation: an LLM plans the album, ACE-Step 1.5 generates the tracks, FLUX renders the cover art. SSE-streamed FastAPI backend, React frontend, MP3/MP4 and YouTube-ready exports. |
 | [comfyui-strix-docker](https://github.com/hec-ovi/comfyui-strix-docker) | ComfyUI image generation packaged for AMD gfx1151, fixing the silent CPU fallback stock images hit. |
@@ -86,7 +86,7 @@ Ohara's Modu was a vibe-coding agent platform, same shape as Lovable: you asked 
 
 AMD Strix Halo (Ryzen AI Max+ 395, gfx1151, 128 GB unified memory) is the box on my desk, so every number below was measured there. The practice is hardware-agnostic: CUDA, ROCm, Vulkan, or CPU, tuned per board and shipped as Docker with measured benchmarks. Everything serves OpenAI-compatible endpoints.
 
-| Repo | What it is |
+| Project Repo Link | What it is |
 |---|---|
 | [vllm-awq4-qwen](https://github.com/hec-ovi/vllm-awq4-qwen) | vLLM + Qwen 3.6-27B AWQ-INT4 + DFlash speculative decoding. Measured 24.8 t/s single-stream, vision, tool calling, 256K context. Matches a DGX Spark at a third of the cost. |
 | [llama-vulkan-strix](https://github.com/hec-ovi/llama-vulkan-strix) | llama.cpp server on Vulkan, GGUF weights pinned to GTT, plus an opt-in ROCm FP4 + MTP stack. Real measured benchmarks. |
