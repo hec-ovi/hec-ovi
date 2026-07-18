@@ -14,9 +14,15 @@
   <a href="https://hec-ovi.dev"><img src="https://img.shields.io/badge/Website-hec--ovi.dev-0969da?style=flat-square" alt="Website"></a>
 </p>
 
-I build AI systems end to end: agent engines with validated tools and bounded memory, skills and MCP servers other agents install, retrieval backends with published eval numbers, generative pipelines across text, image, voice, and 3D, and local inference benchmarked on whatever hardware the target runs. The work ships as installable artifacts (PyPI, npm, the MCP Registry) and running services: a news portal operated entirely by an agent harness is live at [elcensuradoweb.com](https://elcensuradoweb.com). Everything is built agentically: AI agents write most of the code, while architecture, integration tests, and security review stay with me.
+Generalist AI engineer: I implement AI anywhere, from agentic enhancement of an existing product, to computer vision, to a full system built from scratch, cloud or fully local. Built agentically: AI agents write most of the code; architecture, integration tests, and security review stay with me.
 
-<p align="center">🏆 <strong>1st place, Anna AI-Native App Hackathon 2026</strong>, with <a href="https://github.com/hec-ovi/gamentic">gamentic</a>: an AI dungeon RPG, ported to run natively on the Anna platform in one week (<a href="https://github.com/hec-ovi/gamentic-anna">port repo</a>).</p>
+<h2 align="center">Looking for funding</h2>
+
+<a href="https://github.com/hec-ovi/gamentic"><img src="https://img.shields.io/badge/gamentic-8250df?style=flat-square" alt="gamentic"></a> Fully local AI dungeon RPG: an agentic engine with per-character context engineering and a persistent SQLite world state that only changes through 40 validated tools; 1st place at the Anna AI-Native App Hackathon 2026 ([Anna port](https://github.com/hec-ovi/gamentic-anna)).
+
+<a href="https://elcensuradoweb.com"><img src="https://img.shields.io/badge/Censurado-cf222e?style=flat-square" alt="Censurado"></a> Self-publishing AI news portal, live at [elcensuradoweb.com](https://elcensuradoweb.com): an agentic workflow loop that researches, writes, fact-checks, illustrates, and publishes every story on its own.
+
+<a href="https://github.com/hec-ovi/noob-cli"><img src="https://img.shields.io/badge/noob--cli-bc4c00?style=flat-square" alt="noob-cli"></a> Compact Rust agent CLI for local models: Docker isolation, skills, MCP, sub-agents, and live context-budget accounting in a release binary under 4 MB.
 
 <p align="center"><a href="https://github.com/hec-ovi/gamentic"><img src="assets/anna-hackathon-2026-first-place.jpeg" alt="First place certificate, Anna Hackathon 2026" width="440"></a></p>
 
@@ -28,7 +34,7 @@ Systems where agents run loops with real responsibilities: tools, state, memory,
 
 | Repo | What it is |
 |---|---|
-| [**Censurado**](https://elcensuradoweb.com) | Self-hosted AI news portal run end to end by an agent harness, live at [elcensuradoweb.com](https://elcensuradoweb.com). Synthetic authors with their own editorial bias and source lists, stories fact-checked against real sources behind a gated editorial review, an append-only publish API so nothing rewrites history, and a 24/7 serve loop that falls back across agents (Gemini, Codex, Claude, local model) when one fails. <a href="https://github.com/hec-ovi/censurado-web-brain"><img src="https://img.shields.io/badge/brain-8250df?style=flat-square" alt="brain"></a> <a href="https://github.com/hec-ovi/censurado-web-backend"><img src="https://img.shields.io/badge/backend-1a7f37?style=flat-square" alt="backend"></a> <a href="https://github.com/hec-ovi/censurado-web"><img src="https://img.shields.io/badge/frontend-0969da?style=flat-square" alt="frontend"></a> |
+| [**Censurado**](https://elcensuradoweb.com) | Self-hosted AI news portal run end to end by an agentic workflow loop, live at [elcensuradoweb.com](https://elcensuradoweb.com). Synthetic authors with their own editorial bias and source lists, stories fact-checked against real sources behind a gated editorial review, an append-only publish API so nothing rewrites history, and a 24/7 serve loop that falls back across agents (Gemini, Codex, Claude, local model) when one fails. <a href="https://github.com/hec-ovi/censurado-web-brain"><img src="https://img.shields.io/badge/brain-8250df?style=flat-square" alt="brain"></a> <a href="https://github.com/hec-ovi/censurado-web-backend"><img src="https://img.shields.io/badge/backend-1a7f37?style=flat-square" alt="backend"></a> <a href="https://github.com/hec-ovi/censurado-web"><img src="https://img.shields.io/badge/frontend-0969da?style=flat-square" alt="frontend"></a> |
 | [gamentic](https://github.com/hec-ovi/gamentic) | The hackathon winner above, fully local. The world is an explicit state machine: everything the model changes goes through one of 40 validated tools writing to SQLite, so long adventures stay consistent. Every character is its own agent with bounded context and memory, and the text, image, and voice layers (llama.cpp, ComfyUI FLUX.2, Maya1) swap for any OpenAI-compatible or hosted vendor without touching the engine. 850+ tests. |
 | [noob-cli](https://github.com/hec-ovi/noob-cli) | Compact Rust agent CLI for local OpenAI-compatible models: Docker isolation, sessions, skills, MCP, plan mode, sub-agents, web search, and live context-budget accounting with compaction receipts. 673 tests, release binary under 4 MB. |
 | [open-research](https://github.com/hec-ovi/open-research) | Deep-research pipeline: Planner / Finder / Summarizer / Reviewer / Writer agents, SSE telemetry, durable sessions, PDF and Markdown exports. |
@@ -80,7 +86,7 @@ Ohara's Modu was a vibe-coding agent platform, same shape as Lovable: you asked 
 
 <h2 align="center">Local inference, on the hardware you have</h2>
 
-AMD Strix Halo (Ryzen AI Max+ 395, gfx1151, 128 GB unified memory) is the box on my desk, so every number below was measured there. The practice is hardware-agnostic: CUDA, ROCm, Vulkan, or CPU, I tune local models for whatever the target runs and ship them as Docker with measured benchmarks. Everything serves OpenAI-compatible endpoints.
+AMD Strix Halo (Ryzen AI Max+ 395, gfx1151, 128 GB unified memory) is the box on my desk, so every number below was measured there. The practice is hardware-agnostic: CUDA, ROCm, Vulkan, or CPU, tuned per board and shipped as Docker with measured benchmarks. Everything serves OpenAI-compatible endpoints.
 
 | Repo | What it is |
 |---|---|
