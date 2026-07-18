@@ -14,7 +14,7 @@
   <a href="https://hec-ovi.dev"><img src="https://img.shields.io/badge/Website-hec--ovi.dev-0969da?style=flat-square" alt="Website"></a>
 </p>
 
-Generalist AI engineer: I implement AI anywhere, from agentic enhancement of an existing product, to computer vision, to a full system built from scratch, cloud or fully local. Built agentically: AI agents write most of the code; architecture, integration tests, and security review stay with me.
+Generalist AI engineer: I implement AI anywhere, from agentic enhancement of an existing product, to computer vision, TTS/STT, or any generative AI, to a full system built from scratch, cloud or fully local. Built agentically: AI agents write most of the code; architecture, integration tests, and security review stay with me.
 
 <h2 align="center">Looking for funding</h2>
 
