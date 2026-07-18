@@ -18,11 +18,11 @@ Generalist AI engineer: I implement AI anywhere, from agentic enhancement of an 
 
 <h2 align="center">Looking for funding</h2>
 
-<a href="https://github.com/hec-ovi/gamentic"><img src="https://img.shields.io/badge/gamentic-8250df?style=flat-square" alt="gamentic"></a> Fully local AI dungeon RPG: an agentic engine with per-character context engineering and a persistent SQLite world state that only changes through 40 validated tools; 1st place at the Anna AI-Native App Hackathon 2026 ([Anna port](https://github.com/hec-ovi/gamentic-anna)).
-
 <a href="https://elcensuradoweb.com"><img src="https://img.shields.io/badge/Censurado-cf222e?style=flat-square" alt="Censurado"></a> Self-publishing AI news portal, live at [elcensuradoweb.com](https://elcensuradoweb.com): an agentic workflow loop that researches, writes, fact-checks, illustrates, and publishes every story on its own.
 
 <a href="https://github.com/hec-ovi/noob-cli"><img src="https://img.shields.io/badge/noob--cli-bc4c00?style=flat-square" alt="noob-cli"></a> Compact Rust agent CLI for local models: Docker isolation, skills, MCP, sub-agents, and live context-budget accounting in a release binary under 4 MB.
+
+<a href="https://github.com/hec-ovi/gamentic"><img src="https://img.shields.io/badge/gamentic-8250df?style=flat-square" alt="gamentic"></a> Fully local AI dungeon RPG: an agentic engine with per-character context engineering and a persistent SQLite world state that only changes through 40 validated tools; 1st place at the Anna AI-Native App Hackathon 2026 ([Anna port](https://github.com/hec-ovi/gamentic-anna)).
 
 <p align="center"><a href="https://github.com/hec-ovi/gamentic"><img src="assets/anna-hackathon-2026-first-place.jpeg" alt="First place certificate, Anna Hackathon 2026" width="440"></a></p>
 
