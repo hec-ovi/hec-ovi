@@ -20,20 +20,17 @@ I work at every layer of the stack: from hardware optimization and model inferen
 
 <h2 align="center">Looking for funding</h2>
 
-<table>
-  <tr>
-    <td><a href="https://elcensuradoweb.com"><img src="https://img.shields.io/badge/Censurado-cf222e?style=flat-square" alt="Censurado"></a></td>
-    <td>Self-publishing AI news portal, live at <a href="https://elcensuradoweb.com">elcensuradoweb.com</a>: an agentic workflow of up to 14 editorial steps that researches, drafts, evaluates, fact-checks, illustrates, and publishes every story on its own.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/hec-ovi/noob-cli"><img src="https://img.shields.io/badge/noob--cli-bc4c00?style=flat-square" alt="noob-cli"></a></td>
-    <td>Compact Rust agent CLI for local models: Docker isolation, skills, MCP, sub-agents, and live context-budget accounting in a release binary under 4 MB.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/hec-ovi/gamentic"><img src="https://img.shields.io/badge/gamentic-8250df?style=flat-square" alt="gamentic"></a></td>
-    <td>Winner of the Anna AI-Native App Hackathon 2026 (<a href="https://github.com/hec-ovi/gamentic-anna">Anna port</a>): fully local AI dungeon RPG, a multi-agent engine (a narrator plus every NPC as its own agent with its own behavior, context, and memory) over a persistent SQLite world state that only changes through 40 validated tools.</td>
-  </tr>
-</table>
+<a href="https://elcensuradoweb.com"><img src="https://img.shields.io/badge/Censurado-cf222e?style=flat-square" alt="Censurado"></a>
+
+Self-publishing AI news portal, live at [elcensuradoweb.com](https://elcensuradoweb.com): an agentic workflow of up to 14 editorial steps that researches, drafts, evaluates, fact-checks, illustrates, and publishes every story on its own.
+
+<a href="https://github.com/hec-ovi/noob-cli"><img src="https://img.shields.io/badge/noob--cli-bc4c00?style=flat-square" alt="noob-cli"></a>
+
+Compact Rust agent CLI for local models: Docker isolation, skills, MCP, sub-agents, and live context-budget accounting in a release binary under 4 MB.
+
+<a href="https://github.com/hec-ovi/gamentic"><img src="https://img.shields.io/badge/gamentic-8250df?style=flat-square" alt="gamentic"></a>
+
+Winner of the Anna AI-Native App Hackathon 2026 ([Anna port](https://github.com/hec-ovi/gamentic-anna)): fully local AI dungeon RPG, a multi-agent engine (a narrator plus every NPC as its own agent with its own behavior, context, and memory) over a persistent SQLite world state that only changes through 40 validated tools.
 
 <p align="center"><a href="https://github.com/hec-ovi/gamentic"><img src="assets/anna-hackathon-2026-first-place.jpeg" alt="First place certificate, Anna Hackathon 2026" width="440"></a></p>
 
