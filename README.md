@@ -50,8 +50,6 @@ Installable infrastructure for other agents: skills, toolkits, MCP servers and c
 | [agentickit](https://github.com/hec-ovi/agentickit) | React copilot framework on AG-UI: reads app state, fills forms, calls your tools, confirms destructive actions with the user before running them, `.pilot/` markdown skills. 579 tests, on npm. |
 | [websearch-skill](https://github.com/hec-ovi/websearch-skill) | Keyless multi-engine web search and page reading for agents: rank fusion, clean Markdown extraction, and fetched content fenced as untrusted so a page cannot inject instructions into the agent. PyPI and MCP Registry. |
 | [research-skill](https://github.com/hec-ovi/research-skill) | Persistent project-scoped knowledge base for SKILL.md agents: progressive disclosure, contrarian-pass investigation, survives context compaction. |
-| [mcp-dashboard](https://github.com/hec-ovi/mcp-dashboard) | Browser-only MCP explorer: discover servers, connect over HTTP or SSE, inspect capabilities, run tools live. |
-| [mcp-ollama-studio](https://github.com/hec-ovi/mcp-ollama-studio) | Local-first MCP client studio: ReAct agent, OpenAI-compatible backend, React UI with reasoning rail. |
 
 <h2 align="center">RAG, CAG and agentic accuracy</h2>
 
