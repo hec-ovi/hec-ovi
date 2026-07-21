@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://linkedin.com/in/hec-ovi"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="24" alt="LinkedIn"></a>&nbsp;&nbsp;
   <a href="https://x.com/hec_ovi"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/white"><img src="https://cdn.simpleicons.org/x/black" height="24" alt="X"></picture></a>&nbsp;&nbsp;
-  <a href="https://reddit.com/user/hec-ovi"><img src="https://cdn.simpleicons.org/reddit/FF4500" height="24" alt="Reddit"></a>
+  <a href="https://reddit.com/user/hec_ovi"><img src="https://cdn.simpleicons.org/reddit/FF4500" height="24" alt="Reddit"></a>
 </p>
 
 <p align="center">
