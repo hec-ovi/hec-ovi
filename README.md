@@ -1,6 +1,6 @@
 <h1 align="center">Hector Oviedo</h1>
 
-<h3 align="center">Applied AI Engineer</h3>
+<h3 align="center">Senior Applied AI Engineer</h3>
 
 <p align="center"><em>Agentic engineering</em></p>
 
