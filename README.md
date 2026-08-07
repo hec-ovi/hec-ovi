@@ -28,7 +28,7 @@ Self-publishing AI news portal, live at [elcensuradoweb.com](https://elcensurado
 
 <a href="https://github.com/hec-ovi/noob-cli"><img src="https://img.shields.io/badge/noob--cli-bc4c00?style=flat-square" alt="noob-cli"></a>
 
-Compact Rust agent CLI for local models: Docker isolation, skills, MCP, sub-agents, and live context-budget accounting in a 4.1 MiB static binary.
+Compact Rust agent CLI for local models, with a GPU front end: Docker isolation, skills, MCP, sub-agents, and live context-budget accounting in a 4.3 MiB static binary.
 
 <a href="https://github.com/hec-ovi/gamentic"><img src="https://img.shields.io/badge/gamentic-8250df?style=flat-square" alt="gamentic"></a>
 
@@ -46,7 +46,7 @@ Systems where agents run loops with real responsibilities: tools, state, memory,
 |---|---|
 | [**Censurado**](https://elcensuradoweb.com) | Self-hosted AI news portal run end to end by an agentic workflow loop, live at [elcensuradoweb.com](https://elcensuradoweb.com). Synthetic authors with their own editorial bias and source lists, stories fact-checked against real sources behind a gated editorial review, an append-only publish API so nothing rewrites history, and a 24/7 serve loop that falls back across agents (Gemini, Codex, Claude, local model) when one fails.<br><a href="https://github.com/hec-ovi/censurado-web-brain"><img src="https://img.shields.io/badge/brain-8250df?style=flat-square" alt="brain"></a> <a href="https://github.com/hec-ovi/censurado-web-backend"><img src="https://img.shields.io/badge/backend-1a7f37?style=flat-square" alt="backend"></a> <a href="https://github.com/hec-ovi/censurado-web"><img src="https://img.shields.io/badge/frontend-0969da?style=flat-square" alt="frontend"></a> |
 | [gamentic](https://github.com/hec-ovi/gamentic) | The hackathon winner above, fully local. The world is an explicit state machine: everything the model changes goes through one of 40 validated tools writing to SQLite, so long adventures stay consistent. Every character is its own agent with bounded context and memory, and the text, image, and voice layers (llama.cpp, ComfyUI FLUX.2, Maya1) swap for any OpenAI-compatible or hosted vendor without touching the engine. 850+ tests. |
-| [noob&#8209;cli](https://github.com/hec-ovi/noob-cli) | Compact Rust agent CLI for local OpenAI-compatible models: Docker isolation, sessions, skills, MCP, plan mode, sub-agents, web search, and live context-budget accounting with compaction receipts. 700+ tests, 4.1 MiB static binary. |
+| [noob&#8209;cli](https://github.com/hec-ovi/noob-cli) | Compact Rust agent CLI for local OpenAI-compatible models, with a GPU front end: Docker isolation, sessions, skills, MCP, plan mode, sub-agents, web search, and live context-budget accounting with compaction receipts. 1,700+ tests, 4.3 MiB static binary. |
 | [open&#8209;research](https://github.com/hec-ovi/open-research) | Deep-research pipeline: Planner / Finder / Summarizer / Reviewer / Writer agents, SSE telemetry, durable sessions, PDF and Markdown exports. |
 | [rebel&#8209;forge](https://github.com/hec-ovi/rebel-forge) | Autonomous social-media agent: 11-tool loop with error recovery, per-platform voice memory, publishes to five networks from one prompt. |
 
@@ -58,7 +58,7 @@ Installable infrastructure for other agents: skills, toolkits, MCP servers and c
 |---|---|
 | [telegram&#8209;bot&#8209;skill](https://github.com/hec-ovi/telegram-bot-skill) | Any local CLI coding agent (Claude Code, opencode, Codex, Gemini) as a private Telegram bot. One repo, three surfaces: installable skill, npm toolkit, MCP server over stdio or Streamable HTTP. Zero-dependency Node core, deterministic access tiers so strangers wait at a gate, 87 tests. |
 | [agentickit](https://github.com/hec-ovi/agentickit) | React copilot framework on AG-UI: reads app state, fills forms, calls your tools, confirms destructive actions with the user before running them, `.pilot/` markdown skills. 579 tests, on npm. |
-| [websearch&#8209;skill](https://github.com/hec-ovi/websearch-skill) | Keyless multi-engine web search and page reading for agents: rank fusion, clean Markdown extraction, and fetched content fenced as untrusted so a page cannot inject instructions into the agent. PyPI and MCP Registry. |
+| [websearch&#8209;skill](https://github.com/hec-ovi/websearch-skill) | Keyless multi-engine web search and page reading for agents: rank fusion, clean Markdown extraction, and fetched content fenced as untrusted so a page cannot inject instructions into the agent. On PyPI. |
 | [research&#8209;skill](https://github.com/hec-ovi/research-skill) | Persistent project-scoped knowledge base for SKILL.md agents: progressive disclosure, contrarian-pass investigation, survives context compaction. |
 
 <h2 align="center">RAG, CAG and agentic accuracy</h2>
