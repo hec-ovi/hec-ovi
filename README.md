@@ -81,7 +81,7 @@ On the context side the corpus decides. CAG (cache-augmented generation) preload
 
 <h2 align="center">Shipped in production at Ohara</h2>
 
-Ohara's Modu was a vibe-coding agent platform, same shape as Lovable: you asked it for an app ("a Facebook clone with NFTs", "a Mario-style game") and it built and deployed it. I joined to write its instruction sets, about 30 of them covering Three.js, Phaser, web3, and the generative vendors below (what Agent Skills are today, before they had a name), and ended up owning the tooling layer the agent ran on. The template-injection fix described above came out of this work. Everything here ran in production:
+Ohara's Modu was a vibe-coding agent platform, same shape as Lovable: you asked it for an app ("a Facebook clone with NFTs", "a Mario-style game") and it built and deployed it. I joined to write its instruction sets, 30+ of them covering Three.js, Phaser, web3, and the generative vendors below (what Agent Skills are today, before they had a name), and ended up owning the tooling layer the agent ran on. The template-injection fix described above came out of this work. Everything here ran in production:
 
 | Piece | What it was |
 |---|---|
