@@ -14,9 +14,11 @@
   <a href="https://hec-ovi.dev"><img src="https://img.shields.io/badge/Website-hec--ovi.dev-0969da?style=flat-square" alt="Website"></a>
 </p>
 
-Generalist AI engineer: I implement AI anywhere, from agentic enhancement of an existing product, to computer vision, TTS/STT, or any generative AI, to a full system built from scratch, cloud or fully local.
+Senior Applied AI Engineer and AI Solutions Architect with 23+ years of software engineering across interactive products, enterprise applications, and agentic systems. I implement AI at any layer and any scale: agentic enhancement of an existing product or a full system from scratch, cloud or fully local, from hardware-level inference optimization through multi-agent orchestration to the application on top.
 
-I work at every layer of the stack: from hardware optimization and model inference, through high-level agentic workflows, to agentic software engineering.
+Proven delivery of production AI: agentic workflows and multi-agent architectures, MCP and API integrations across HTTP, SSE, and WebSocket transports, RAG, computer vision, multimodal generative AI across video, image, speech, and audio, and web3 tooling. End-to-end ownership from business requirements to deployment, in Agile cycles with stakeholders in the loop; architecture, integration tests, and security review stay in human hands.
+
+1st place, Anna AI-Native App Hackathon 2026. Current proof is public: a self-publishing AI news portal live in production, more than ten published agent skills and toolkits, and open-source inference optimization on AMD hardware.
 
 <h2 align="center">Looking for funding</h2>
 
